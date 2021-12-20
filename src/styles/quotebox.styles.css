@@ -1,0 +1,57 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+.quote-box {
+   width: 42rem;
+   height: 13rem;
+   background-color: rgb(223, 222, 206);
+   border-radius: 1.5rem;
+   padding: 0.5rem;
+
+   display: flex;
+}
+.first-article {
+   margin-top: 1rem;
+   width: 10%;
+   text-align: center;
+}
+.second-article {
+   width: 90%;
+}
+.section-quote {
+   margin-top: 1rem;
+   margin-left: 1rem;
+   height: 55%;
+   display: flex;
+   justify-content: start;
+   padding-right: 1rem;
+}
+.section-quote {
+   font-size: 21px;
+}
+.section-btn {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   margin-right: 1rem;
+}
+.section-btn > h4 {
+   margin: 0 2rem 0.5rem 0;
+}
+.fa-arrow-alt-circle-right {
+   font-size: 27px;
+   margin-right: 0.5rem;
+   background-color: none;
+}
+.btn-quotes {
+   border: none;
+   background-color: transparent;
+   padding-top: 0.5rem;
+   opacity: 70%;
+}
+.fa-quote-left {
+   font-size: 40px;
+   opacity: 75%;
+}
