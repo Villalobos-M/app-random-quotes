@@ -21,8 +21,6 @@ function App() {
    setQuotesJson(quotes[index])
    setBackground(colors[getNumberColor(colors.length)])
  }
-  
-  console.log(quotes);
   return (
     <div className="App" style={{background}} >
       <header>
